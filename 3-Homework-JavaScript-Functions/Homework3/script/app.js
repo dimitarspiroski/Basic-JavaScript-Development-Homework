@@ -1,16 +1,13 @@
-let input = prompt(`Enter the amount you want to withdraw: `);
-let atmAmount = 30000;
-let personalAmount = 45000;
-let withdraw = parseInt(input);
-function withdrawal(personalAmount, withdraw) {
-    personalAmount -= withdraw;
+let input = prompt(`Enter the amount you want to withdraw: `);;
+let personalAmount = 10000;
+
+function withdrawal(input) {
+    let withdraw = parseInt(input);
+    if(withdraw <= personalAmount) {
+        console.log(`Amount of money withdrawn: ${withdraw}, Amount of money left on your account: ${personalAmount-withdraw}`);
     }
-if(withdraw <= atmAmount) {
-    function withdrawal(personalAmount, withdraw){
-        return personalAmount -= withdraw;
+    else {
+        console.log(`Not enough money on your account.`);
     }
-    console.log(`Amount of money withdrawn: `,withdraw,`, Amount of money left on your account: `,withdrawal(personalAmount, withdraw));
 }
-else {
-    console.log(`The ATM doesn't enough money for the transaction.`)
-}
+withdrawal(input);
