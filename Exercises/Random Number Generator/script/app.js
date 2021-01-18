@@ -1,7 +1,7 @@
 let gameOne = "Valorant";
 let gameTwo = "Path of Exile";
 function rng(a, b) {
-let randomNumber = Math.floor(Math.random() * 3) + 1;
+let randomNumber = Math.floor(Math.random() * 2) + 1;
     if(randomNumber === 1) {
         console.log(gameOne);
     }   
