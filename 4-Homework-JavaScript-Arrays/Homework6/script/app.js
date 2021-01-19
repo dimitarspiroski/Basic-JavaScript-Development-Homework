@@ -1,5 +1,5 @@
-let firstNames = ["Dimitar", "Borche", "Ivo", "Ivan"];
-let lastNames = ["Spiroski", "Borisovski", "Kostovski", "Lazarevski"];
+let firstNames = ["Dimitar", "Ivo", "Ivan"];
+let lastNames = ["Spiroski", "Kostovski", "Lazarevski"];
 
 function fullNames(arrayOne, arrayTwo) {
     let fullName = [];
