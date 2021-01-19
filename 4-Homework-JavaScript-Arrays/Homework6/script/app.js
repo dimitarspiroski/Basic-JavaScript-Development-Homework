@@ -3,10 +3,10 @@ let lastNames = ["Spiroski", "Borisovski", "Kostovski", "Lazarevski"];
 
 function fullNames(arrayOne, arrayTwo) {
     let fullName = [];
-    for () {
-        fullName.push();
-        console.log(fullName);
+    for (let n = 0; n < arrayOne.length; n++) {
+        fullName.push(arrayOne[n] + " " + arrayTwo[n]);
     }
+    console.log(fullName);
 }
 
 fullNames(firstNames, lastNames);
