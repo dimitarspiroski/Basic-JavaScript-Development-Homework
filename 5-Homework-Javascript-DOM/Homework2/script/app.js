@@ -26,7 +26,7 @@ function mathEquation(array) {
     // let arrayString = [];
     mathEquationDiv.innerHTML = "";
     mathEquationDiv.innerHTML += "<p>"
-    mathEquationDiv.innerHTML += array.join('+') + `=${sumNumbers(numbersArray)}`;
+    mathEquationDiv.innerHTML += array.join('+') + `=${sumNumbers(array)}`;
     mathEquationDiv.innerHTML += "</p>"
 }
 
