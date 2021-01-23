@@ -23,11 +23,11 @@ function sumNumbers(array) {
 }
 
 function mathEquation(array) {
-    // let arrayString = [];
-    mathEquationDiv.innerHTML = "";
-    mathEquationDiv.innerHTML += "<p>"
-    mathEquationDiv.innerHTML += array.join('+') + `=${sumNumbers(array)}`;
-    mathEquationDiv.innerHTML += "</p>"
+  // let arrayString = [];
+  mathEquationDiv.innerHTML = "";
+  mathEquationDiv.innerHTML += "<p>";
+  mathEquationDiv.innerHTML += array.join("+") + `=${sumNumbers(array)}`;
+  mathEquationDiv.innerHTML += "</p>";
 }
 
 printList(numbersArray);
