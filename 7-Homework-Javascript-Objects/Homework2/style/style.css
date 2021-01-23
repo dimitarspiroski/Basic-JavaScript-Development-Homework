@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  background: linear-gradient(#e9967a, #f7ffaf);
+}
+
+body div {
+  width: 250px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin: 20px;
+}

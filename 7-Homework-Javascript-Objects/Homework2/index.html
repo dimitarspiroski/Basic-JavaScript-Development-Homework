@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <h1>Books!</h1>
+    <div>
+      <label for="book-title">Book</label>
+      <input
+        type="text"
+        name="book"
+        id="book-title"
+        placeholder="Title of the book:"
+      />
+    </div>
+    <div>
+      <label for="author-name">Author</label>
+      <input
+        type="text"
+        name="author"
+        id="author-name"
+        placeholder="Name of the author:"
+      />
+    </div>
+    <div>
+      <label for="is-book-read">Have you read the book?</label>
+      <input type="checkbox" name="book-read" id="is-book-read" />
+    </div>
+    <button type="button" id="submit-btn">Submit</button>
+    <div id="display-msg"></div>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
