@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynamic Table</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Table Generator</h1>
+    </div>
+    <div>
+      <label for="column-number">Insert number of column/s:</label>
+      <input type="number" name="number-of-columns" id="column-number" />
+    </div>
+    <div>
+      <label for="row-number">Insert number of row/s:</label>
+      <input type="number" name="number-of-rows" id="row-number" />
+    </div>
+    <button type="button" id="submit-btn">Submit</button>
+    <table id="table-container"></table>
     <script src="./script/app.js"></script>
-</body>
+  </body>
 </html>
