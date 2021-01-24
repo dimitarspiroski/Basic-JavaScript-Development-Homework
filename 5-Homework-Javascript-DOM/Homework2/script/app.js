@@ -1,9 +1,11 @@
+//Selectors
 let numbersArrayDiv = document.querySelector("#numbersArray");
 let sumNumbersDiv = document.querySelector("#sumNumbers");
 let mathEquationDiv = document.querySelector("#bonus");
 
 let numbersArray = [6, 25, 4, 5];
 
+//Functions
 function printList(array) {
   numbersArrayDiv.innerHTML = "";
   numbersArrayDiv.innerHTML += "<ul>";

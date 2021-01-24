@@ -1,12 +1,15 @@
+//Selectors
 let recipeHeader = document.querySelector("#recipeHeaderDiv");
 let ingredientsNum = document.querySelector("#ingredientsNumDiv");
 let ingredientsList = document.querySelector("#ingredientsListDiv");
 
+//Declaring
 let recipeName = prompt(`What's the name of the recipe?`);
 let numOfIngredients = parseInt(
   prompt(`Please enter the number of ingredients: `)
 );
 
+//Functions
 function printHeader(input) {
   input.innerHTML = "";
   input.innerHTML += `<h1>Recipe Name: ${recipeName}</h1>`;

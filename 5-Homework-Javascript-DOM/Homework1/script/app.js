@@ -1,3 +1,4 @@
+//Selectors
 let myTitleOne = document.getElementById("myTitle");
 let myTitleThree = document.querySelector("h3");
 let myTitleTwo = myTitleThree.previousElementSibling;
