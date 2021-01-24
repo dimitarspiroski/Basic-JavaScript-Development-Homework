@@ -29,7 +29,6 @@ function cleanUpInputs() {
 
 // [Event Handlers]
 submitBtn.addEventListener("click", function () {
+  table.innerHTML = "";
   createTable(rowNumber.value, columnNumber.value);
 });
-
-// I wanted to find a way to delete the previous table when generating a new one, because It keeps adding cells to the previous one, but I can't find a solution...
